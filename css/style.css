@@ -997,6 +997,7 @@ img {
   align-items: center;
   justify-content: flex-start;
   gap: 8px;
+  margin-bottom: 0;
 
   color: #8e8f99;
   font-size: 12px;
