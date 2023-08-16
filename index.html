@@ -497,8 +497,21 @@
             rows="8"
             placeholder="Text input"
           ></textarea>
+
           <label class="modal-label" for=""></label>
-          <input type="checkbox" />
+          <input class="visually-hidden checkbox" type="checkbox" />
+
+          <span class="custom-checkbox">
+            <svg class="custom-checkbox-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-Property-click"></use>
+            </svg>
+          </span>
+          <span>
+            <p class="checkbox-text">
+              I accept the terms and conditions of the
+              <a class="checkbox-link" href="#">Privacy Policy</a>
+            </p>
+          </span>
 
           <button class="modal-button-submit" type="submit">Send</button>
         </form>

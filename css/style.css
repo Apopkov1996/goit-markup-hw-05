@@ -932,6 +932,7 @@ img {
   resize: none;
 
   padding: 8px 16px;
+  margin-bottom: 16px;
 
   color: #2e2f42;
 
@@ -945,6 +946,29 @@ img {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
+}
+
+.checkbox {
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-text {
+  color: #8e8f99;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
+.checkbox-link {
+  text-decoration: underline;
 }
 
 .modal-button-submit {
