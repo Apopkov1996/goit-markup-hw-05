@@ -993,10 +993,6 @@ img {
 }
 
 .checkbox-label {
-  display: inline-flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 8px;
   margin-bottom: 0;
 
   color: #8e8f99;
