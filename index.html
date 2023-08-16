@@ -435,7 +435,7 @@
         <div class="footer-third">
           <p class="footer-third-text">Subscribe</p>
           <form class="footer-third-wrapper" name="Subscribe_form">
-            <label class="footer-third-form" for="">
+            <label class="footer-third-form">
               <input
                 class="footer-third-form-input"
                 type="email"
@@ -464,9 +464,9 @@
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
-        <strong class="modal-header"
-          >Leave your contacts and we will call you back</strong
-        >
+        <p class="modal-header">
+          Leave your contacts and we will call you back
+        </p>
         <form class="modal-form" name="modal_collback_form">
           <label for="user_name" class="modal-label">Name</label>
           <div class="modal-contanier">
@@ -489,20 +489,21 @@
               <use href="./images/icons.svg#icon-email"></use>
             </svg>
           </div>
-          <label class="modal-label" for="user_comment" class="modal-label"
-            >Comment</label
-          >
+          <label class="modal-label" for="user_comment">Comment</label>
           <textarea
             class="modal-texterea"
-            name=""
+            name="user_comment"
             id="user_comment"
             rows="8"
             placeholder="Text input"
           ></textarea>
 
-          <label class="modal-label checkbox-label" for="">
-            <input class="visually-hidden" type="checkbox" />
-
+          <label class="modal-label checkbox-label">
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              name="user_agreement"
+            />
             <span class="custom-checkbox">
               <svg class="custom-checkbox-icon" width="16" height="16">
                 <use href="./images/icons.svg#icon-Property-click"></use>
